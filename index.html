@@ -4,13 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
+    </head>
 <body>
     <header class="header">
         <nav class="header-navigation">
             <ul class="header-list">
                 <li class="header-item">
-                    <a href="" class="header-link">Про нас</a>
+                    <a href="" class="
+                    ">Про нас</a>
                 </li>
                 <li class="header-item">
                     <a href="" class="header-link">Напрямки роботи</a>
@@ -37,11 +42,11 @@
     </header>
     <main>
         <!-- hero -->
-        <section>
-            <h1>Giraffe Club</h1>
-            <p>Офіційний сертифікований центр підготовки до міжнародних екзаменів Cambrige</p>
-            <button>Отримати консультацію</button>
-            <img src="imges/giraffe.png" alt="" width="539">
+        <section class="hero">
+            <h1 class="hero-title">Giraffe Club</h1>
+            <p class="hero-text">Офіційний сертифікований центр підготовки до міжнародних екзаменів Cambrige</p>
+            <button class="hero-button">Отримати консультацію</button>
+            <img src="imges/giraffe.png" alt="" width="539" class="hero-img">
         </section>
         <!-- about -->
         <section class="about">
@@ -142,9 +147,20 @@
     </main>
     <footer class="footer"> 
         <h2 class="footer-title">Giraffe Club</h2>
-        <p class="footer-number">Номер телефону:+38 050 843 91 68</p>
-        <p class="footer-email">Email:info@giraffe.in.ua</p>
-        <p class="footer-adress">Адреса:м. Кропивницький, вул. Соборна, 1а</p>
+        <ul class="footer-list">
+            <li class="footer-number">
+                <p class="footer-subtitle">Номер телефону:</p>
+                <a href="tel:+380508439168" class="footer-link">+38 050 843 91 68</a>
+            </li>
+            <li class="footer-email">
+                <p class="footer-subtitle">Email:</p>
+                <a href="mailto:info@giraffe.in.ua" class="footer-link">info@giraffe.in.ua</a>
+            </li>
+            <li class="footer-adress">
+                <p class="footer-subtitle">Адреса:</p>
+                <address class="footer-address">м. Кропивницький, вул. Соборна, 1а</address>
+            </li>
+        </ul>
         <p class="footer-social">Соціальні мережі:</p>
     </footer>
 </body>
