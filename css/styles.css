@@ -1,203 +1,176 @@
-body{
+:root {
+    --text-color: #000;
+    --background-color: #DE742BE5
+}
+
+body {
     font-family: "Playfair Display", serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: var(--text-color);
+
 }
 
-.header-link{
-    color: var(--Font-Color-Black, #000);
+.header-link {
     text-align: center;
-    font-size: 26px;
-    font-weight: 300;
     line-height: normal;
 }
 
-.hero-title{
-    color: var(--Font-Color-Black, #000);
+.hero-title {
     font-size: 90px;
-    font-style: normal;
     font-weight: 600;
     line-height: normal;
 }
 
-.hero-text{
-    color: var(--Font-Color-Black, #000);
+.hero-text {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
 }
 
-.hero-button{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
+.hero-button {
     line-height: normal;
 }
 
-.about-text{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
+.about-text {
     font-weight: 600;
     line-height: normal;
 }
 
-.about-titel{
-    color: var(--Font-Color-Black, #000);
+.about-titel {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
+    /* 65px */
 }
 
-.about-item{
-    color: var(--Font-Color-Black, #000);
+.about-item {
     font-size: 34px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 44.2px */
+    line-height: 130%;
+    /* 44.2px */
 }
 
-.learning-text{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
+.learning-text {
     font-weight: 600;
     line-height: normal;
 }
 
-.learning-title{
-    color: var(--Font-Color-Black, #000);
+.learning-title {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
+    /* 65px */
 }
 
-.lerning-item{
-    color: var(--Font-Color-Black, #000);
+.lerning-item {
     font-size: 34px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 44.2px */
+    line-height: 130%;
+    /* 44.2px */
 }
 
-.curces-title{
-    color: var(--Font-Color-Black, #000);
+.curces-title {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
+    /* 65px */
 }
 
-.curces-subtitle{
-    color: var(--Font-Color-Black, #000);
+.curces-subtitle {
     font-size: 34px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 44.2px */
+    line-height: 130%;
+    /* 44.2px */
 }
 
-.curces-text{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
+.curces-text {
     line-height: normal;
 }
 
-.travel-subtitle{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
+.travel-subtitle {
     font-weight: 600;
     line-height: normal;
 }
 
-.travel-title{
-    color: var(--Font-Color-Black, #000);
+.travel-title {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
+    /* 65px */
 }
 
-.travel-text{
-    color: var(--Font-Color-Black, #000);
+.travel-text {
     font-size: 34px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 44.2px */
+    line-height: 130%;
+    /* 44.2px */
 }
 
-.teachers-text{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
+.teachers-text {
     font-weight: 600;
     line-height: normal;
 }
 
-.teachers-title{
-    color: var(--Font-Color-Black, #000);
+.teachers-title {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
+    /* 65px */
 }
 
-.teachers-name{
-    color: var(--Font-Color-Black, #000);
+.teachers-name {
     font-size: 30px;
-    font-style: normal;
-    font-weight: 300;
     line-height: normal;
 }
 
-.teachers-profes{
-    color: var(--Font-Color-Black, #000);
+.teachers-profes {
     font-size: 22px;
-    font-style: normal;
-    font-weight: 300;
     line-height: normal;
 }
 
-.note-subtitle{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
+.note-subtitle {
     font-weight: 600;
     line-height: normal;
 }
 
-.note-title{
-    color: var(--Font-Color-Black, #000);
+.note-title {
     font-size: 50px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 65px */
+    line-height: 130%;
+    /* 65px */
 }
 
-.note-name{
-    color: var(--Font-Color-Black, #000);
+.note-name {
     font-size: 34px;
-    font-style: normal;
-    font-weight: 300;
-    line-height: 130%; /* 44.2px */
+    line-height: 130%;
+    /* 44.2px */
 }
 
-.note-adress{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
+.note-adress {
     line-height: normal;
 }
 
-.note-text{
-    color: var(--Font-Color-Black, #000);
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 300;
+.note-text {
+    line-height: normal;
+}
+
+.footer-title {
+    text-align: center;
+    font-size: 41.619px;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.footer-subtitle {
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.footer-link {
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.footer-address {
+    text-align: center;
+    font-size: 18px;
+    line-height: normal;
+}
+
+.footer-social {
+    text-align: center;
+    font-size: 18px;
     line-height: normal;
 }
