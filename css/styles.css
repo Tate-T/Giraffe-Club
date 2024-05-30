@@ -3,17 +3,33 @@
     --background-color: #DE742BE5
 }
 
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+
+a{
+    text-decoration: 0;
+}
 body {
     font-family: "Playfair Display", serif;
     font-size: 26px;
     font-weight: 300;
     color: var(--text-color);
-
 }
 
 .header-link {
     text-align: center;
     line-height: normal;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 .hero-title {
@@ -29,6 +45,10 @@ body {
 
 .hero-button {
     line-height: normal;
+    color: inherit;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
 }
 
 .about-text {
@@ -39,13 +59,11 @@ body {
 .about-titel {
     font-size: 50px;
     line-height: 130%;
-    /* 65px */
 }
 
 .about-item {
     font-size: 34px;
     line-height: 130%;
-    /* 44.2px */
 }
 
 .learning-text {
@@ -56,25 +74,21 @@ body {
 .learning-title {
     font-size: 50px;
     line-height: 130%;
-    /* 65px */
 }
 
 .lerning-item {
     font-size: 34px;
     line-height: 130%;
-    /* 44.2px */
 }
 
 .curces-title {
     font-size: 50px;
     line-height: 130%;
-    /* 65px */
 }
 
 .curces-subtitle {
     font-size: 34px;
     line-height: 130%;
-    /* 44.2px */
 }
 
 .curces-text {
@@ -89,13 +103,11 @@ body {
 .travel-title {
     font-size: 50px;
     line-height: 130%;
-    /* 65px */
 }
 
 .travel-text {
     font-size: 34px;
     line-height: 130%;
-    /* 44.2px */
 }
 
 .teachers-text {
@@ -106,7 +118,6 @@ body {
 .teachers-title {
     font-size: 50px;
     line-height: 130%;
-    /* 65px */
 }
 
 .teachers-name {
@@ -127,13 +138,11 @@ body {
 .note-title {
     font-size: 50px;
     line-height: 130%;
-    /* 65px */
 }
 
 .note-name {
     font-size: 34px;
     line-height: 130%;
-    /* 44.2px */
 }
 
 .note-adress {
@@ -161,6 +170,9 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: normal;
+    color: inherit;
+    font-family: inherit;
+    font-weight: inherit;
 }
 
 .footer-address {
