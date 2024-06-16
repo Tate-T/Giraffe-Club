@@ -1,188 +1,211 @@
 :root {
-    --text-color: #000;
-    --background-color: #DE742BE5
+  --text-color: #000;
+  --background-color: #de742be5;
 }
 
-ul{
-    margin: 0;
-    padding: 0;
-    list-style: none;
+/* .container {
+  outline: solid red;
+  width: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 auto;
+  @media screen and (min-width: 340px) {
+    width: 340px;
+  }
+  @media screen and (min-width: 788px) {
+    width: 788px;
+  }
+  @media screen and (min-width: 1700px) {
+    width: 1700px;
+  }
+} */
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6, p{
-    margin: 0;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
 }
 
-a{
-    text-decoration: 0;
+a {
+  text-decoration: 0;
 }
 body {
-    font-family: "Playfair Display", serif;
-    font-size: 26px;
-    font-weight: 300;
-    color: var(--text-color);
+  font-family: "Playfair Display", serif;
+  font-size: 26px;
+  font-weight: 300;
+  color: var(--text-color);
 }
 
 .header-link {
-    text-align: center;
-    line-height: normal;
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
+  text-align: center;
+  line-height: normal;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .hero-title {
-    font-size: 90px;
-    font-weight: 600;
-    line-height: normal;
+  font-size: 90px;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .hero-text {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .hero-button {
-    line-height: normal;
-    color: inherit;
-    font-family: inherit;
-    font-size: inherit;
-    font-weight: inherit;
+  line-height: normal;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
 }
 
 .about-text {
-    font-weight: 600;
-    line-height: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .about-titel {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .about-item {
-    font-size: 34px;
-    line-height: 130%;
+  font-size: 34px;
+  line-height: 130%;
 }
 
 .learning-text {
-    font-weight: 600;
-    line-height: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .learning-title {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .lerning-item {
-    font-size: 34px;
-    line-height: 130%;
+  font-size: 34px;
+  line-height: 130%;
 }
 
 .curces-title {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .curces-subtitle {
-    font-size: 34px;
-    line-height: 130%;
+  font-size: 34px;
+  line-height: 130%;
 }
 
 .curces-text {
-    line-height: normal;
+  line-height: normal;
 }
 
 .travel-subtitle {
-    font-weight: 600;
-    line-height: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .travel-title {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .travel-text {
-    font-size: 34px;
-    line-height: 130%;
+  font-size: 34px;
+  line-height: 130%;
 }
 
 .teachers-text {
-    font-weight: 600;
-    line-height: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .teachers-title {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .teachers-name {
-    font-size: 30px;
-    line-height: normal;
+  font-size: 30px;
+  line-height: normal;
 }
 
 .teachers-profes {
-    font-size: 22px;
-    line-height: normal;
+  font-size: 22px;
+  line-height: normal;
 }
 
 .note-subtitle {
-    font-weight: 600;
-    line-height: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .note-title {
-    font-size: 50px;
-    line-height: 130%;
+  font-size: 50px;
+  line-height: 130%;
 }
 
 .note-name {
-    font-size: 34px;
-    line-height: 130%;
+  font-size: 34px;
+  line-height: 130%;
 }
 
 .note-adress {
-    line-height: normal;
+  line-height: normal;
 }
 
 .note-text {
-    line-height: normal;
+  line-height: normal;
 }
 
 .footer-title {
-    text-align: center;
-    font-size: 41.619px;
-    font-weight: 600;
-    line-height: normal;
+  text-align: center;
+  font-size: 41.619px;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .footer-subtitle {
-    text-align: center;
-    font-size: 18px;
-    line-height: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
 }
 
 .footer-link {
-    text-align: center;
-    font-size: 18px;
-    line-height: normal;
-    color: inherit;
-    font-family: inherit;
-    font-weight: inherit;
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
+  color: inherit;
+  font-family: inherit;
+  font-weight: inherit;
 }
 
 .footer-address {
-    text-align: center;
-    font-size: 18px;
-    line-height: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
 }
 
 .footer-social {
-    text-align: center;
-    font-size: 18px;
-    line-height: normal;
+  text-align: center;
+  font-size: 18px;
+  line-height: normal;
 }
